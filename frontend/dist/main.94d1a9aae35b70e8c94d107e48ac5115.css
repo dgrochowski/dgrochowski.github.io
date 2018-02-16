@@ -1,0 +1,214 @@
+a {
+  color: #222;
+  text-decoration: none; }
+  a:hover {
+    color: inherit; }
+  .footer a {
+    color: #FFF; }
+
+.responsiveBox {
+  margin: 0 auto;
+  width: 350px;
+  height: 100px;
+  color: #FFF;
+  border: 1px solid #FFF;
+  background: blue; }
+
+.iteration {
+  border: 1px solid blue;
+  background: #CCC; }
+  .iteration .item-1 {
+    border: 2px solid red;
+    width: 2px;
+    height: 2px; }
+  .iteration .item-2 {
+    border: 4px solid red;
+    width: 2px;
+    height: 2px; }
+  .iteration .item-3 {
+    border: 6px solid red;
+    width: 2px;
+    height: 2px; }
+  .iteration .item-4 {
+    border: 8px solid red;
+    width: 2px;
+    height: 2px; }
+  .iteration .item-5 {
+    border: 10px solid red;
+    width: 2px;
+    height: 2px; }
+  .iteration .item-6 {
+    border: 12px solid red;
+    width: 2px;
+    height: 2px; }
+  .iteration .item-7 {
+    border: 14px solid red;
+    width: 2px;
+    height: 2px; }
+  .iteration .item-8 {
+    border: 16px solid red;
+    width: 2px;
+    height: 2px; }
+  .iteration .item-9 {
+    border: 18px solid red;
+    width: 2px;
+    height: 2px; }
+  .iteration .item-10 {
+    border: 20px solid red;
+    width: 2px;
+    height: 2px; }
+
+.headers h4 {
+  font-family: Marion;
+  font-weight: 1600;
+  color: #FFF; }
+
+.headers h3 {
+  font-family: Marion;
+  font-weight: 1200;
+  color: #FFF; }
+
+.headers h2 {
+  font-family: Marion;
+  font-weight: 800;
+  color: #FFF; }
+
+.headers h1 {
+  font-family: Marion;
+  font-weight: 400;
+  color: #FFF; }
+
+.headers h1 {
+  font-size: 2em; }
+
+.headers h2 {
+  font-size: 2.5em; }
+
+.headers h3 {
+  font-size: 1.2em; }
+
+.success-message {
+  background: #FFF;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px; }
+
+.success-message {
+  border-color: green;
+  color: green; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat-Regular.otf);
+  font-weight: normal;
+  font-style: normal; }
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Montserrat; }
+
+.content-left {
+  float: left;
+  border: 2px solid blue;
+  padding: 10px;
+  background: #FFF;
+  min-width: 24px; }
+
+.content-right {
+  float: right;
+  border: 2px solid blue;
+  padding: 30px;
+  background: #EEE;
+  min-width: 164px; }
+
+.bottomRow {
+  background: #FFF;
+  border-color: green;
+  border-width: 5px;
+  border-style: solid;
+  padding: 10px; }
+
+.media-directives {
+  width: 100%;
+  height: 100px; }
+  .media-directives .box {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #FFF;
+    background: red;
+    text-align: center; }
+  @media all and (max-width: 480px) {
+    .media-directives .box-xs {
+      background: #FFF; } }
+  @media all and (min-width: 481px) and (max-width: 640px) {
+    .media-directives .box-s {
+      background: #FFF; } }
+  @media all and (min-width: 641px) and (max-width: 1024px) {
+    .media-directives .box-m {
+      background: #FFF; } }
+  @media all and (min-width: 1025px) and (max-width: 1600px) {
+    .media-directives .box-l {
+      background: #FFF; } }
+  @media all and (min-width: 1601px) {
+    .media-directives .box-xl {
+      background: #FFF; } }
+
+.avatar {
+  background: url(./images/avatar-default.png);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px; }
+
+nav {
+  background: #FFF; }
+  nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center; }
+  nav li {
+    display: inline-block; }
+
+.article1, .article2 {
+  border: 2px solid green;
+  box-sizing: border-box;
+  height: 100px; }
+
+.article1 {
+  float: left;
+  width: 400px; }
+
+.article2 {
+  float: right;
+  width: 330px; }
+
+.content {
+  background: #FFF;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid blue;
+  width: 754px; }
+
+.content::after {
+  content: '';
+  clear: both;
+  display: table; }
+
+.variable-defaults {
+  border: 2px solid #FFF;
+  padding: 5px; }
+
+body {
+  background: red; }
+
+header {
+  width: 20em;
+  background: #FFF;
+  margin: 0 auto;
+  padding: 30px 50px; }
